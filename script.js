@@ -83,9 +83,9 @@ if (passwordLength >= 8 && passwordLength <= 128 && isNaN(passwordLength) == fal
   
 }  else {
    alert("you must enter a number between 8 and 128");
-
+  return password = [];
    };
-
+  
 };
   
 
